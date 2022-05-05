@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pm2": "pm2 start index.js --name lawpunks-metaverse",
-    "pm2gauge": "pm2 start gauges.js --name gauge-list"
+    "pm2": "pm2 start index.js --name lawpunks-metaverse"
   },
   "keywords": [],
   "author": "",
