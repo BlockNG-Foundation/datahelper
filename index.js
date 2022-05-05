@@ -43,7 +43,7 @@ const STAKE_CONTRACT = {
 
 
 const METAVERSE_PATH = './metaverse.json';
-const STAKING_INFO_PATH = './stakingInfo.json';
+const STAKING_INFO_PATH = './punksTVL.json';
 const RELOAD_TIME = 3 * 60 * 1000;
 let globalMetaverseData = [[0, 0, 0, 0, 0, '', '', '', 0]];
 let globalMarketData = {};
