@@ -1,0 +1,19 @@
+{
+  "name": "metaversedatahelper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pm2": "pm2 start index.js --name lawpunks-metaverse",
+    "pm2gauge": "pm2 start gauges.js --name gauge-list"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^9.0.1",
+    "ethers": "^5.4.7",
+    "fs-extra": "^10.0.0",
+    "log4js": "^6.3.0"
+  }
+}
